@@ -11,7 +11,7 @@ public class SkyBox extends GameItem {
 
     public static void init() throws Exception {
         skyBoxMesh = OBJLoader.loadMesh("/models/bg.obj");
-        Texture skyBoxtexture = new Texture("./textures/space.png");
+        Texture skyBoxtexture = new Texture("GomJump-main/textures/space.png");
         skyBoxMesh.setMaterial(new Material(skyBoxtexture, 0.1f));
     }
 

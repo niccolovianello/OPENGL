@@ -12,7 +12,7 @@ import java.awt.geom.Rectangle2D;
 
 public class CoinItem extends GameItem {
 
-    static String[] skins = {"./textures/coin0.png", "./textures/coin1.png", "./textures/coin2.png", "./textures/coin3.png"};
+    static String[] skins = {"GomJump-main/textures/coin0.png", "GomJump-main/textures/coin1.png", "GomJump-main/textures/coin2.png", "GomJump-main/textures/coin3.png"};
 
     static Mesh mesh;
 

@@ -23,8 +23,8 @@ public class PlatformItem extends GameItem {
     public static void initPlatform() throws Exception {
         mesh = OBJLoader.loadMesh("/models/platform.obj");
         mesh1 = OBJLoader.loadMesh("/models/platform.obj");
-        texture = new Texture("./textures/platform.png");
-        texture1 = new Texture("./textures/platform1.png");
+        texture = new Texture("GomJump-main/textures/platform.png");
+        texture1 = new Texture("GomJump-main/textures/platform1.png");
         Material material = new Material(new Vector4f(1.0f, 1.0f, 0.0f, 1.0f), 1f),
                 material1 = new Material(new Vector4f(1.0f, 1.0f, 0.0f, 1.0f), 1f);
         mesh.setMaterial(material);
