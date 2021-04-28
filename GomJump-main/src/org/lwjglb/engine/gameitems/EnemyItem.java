@@ -23,7 +23,7 @@ public class EnemyItem extends GameItem {
 
     public static void init() throws Exception {
         mesh = OBJLoader.loadMesh("/models/enemy.obj");
-        texture = new Texture("GomJump-main/textures/enemy.png");
+        texture = new Texture("./textures/enemy.png");
     }
 
     public static void clear(){

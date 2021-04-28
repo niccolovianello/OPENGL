@@ -8,8 +8,8 @@ import org.lwjglb.engine.graph.Texture;
 public class ButtonItem extends GameItem {
 
     static final String models = "/models/button.obj";
-    static final String[] skin = {"GomJump-main/textures/ButtonStart.png", "GomJump-main/textures/ButtonPlayer.png", "GomJump-main/textures/ButtonCoin.png",
-            "GomJump-main/textures/ButtonHighScores.png", "GomJump-main/textures/ButtonExit.png"};
+    static final String[] skin = {"./textures/ButtonStart.png", "./textures/ButtonPlayer.png", "./textures/ButtonCoin.png",
+            "./textures/ButtonHighScores.png", "./textures/ButtonExit.png"};
     static Mesh[] meshes = new Mesh[5];
     static Texture[] textures = new Texture[5];
 

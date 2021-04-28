@@ -10,7 +10,7 @@ import org.lwjglb.engine.graph.Texture;
 
 public class PlayerCharacter extends GameItem {
 
-    static String[] skins = {"GomJump-main/textures/player1.png", "GomJump-main/textures/player0.png", "GomJump-main/textures/player2.png", "GomJump-main/textures/player3.png"};
+    static String[] skins = {"./textures/player1.png", "./textures/player0.png", "./textures/player2.png", "./textures/player3.png"};
     static Mesh mesh;
     static Material material;
     static Texture[] textures = new Texture[4];
