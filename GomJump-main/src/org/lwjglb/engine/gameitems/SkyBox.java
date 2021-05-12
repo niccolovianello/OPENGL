@@ -11,12 +11,13 @@ public class SkyBox extends GameItem {
 
     public static void init() throws Exception {
         skyBoxMesh = OBJLoader.loadMesh("/models/bg.obj");
-        Texture skyBoxtexture = new Texture("./textures/space.png");
+        Texture skyBoxtexture = new Texture("./textures/bkg.jpg");
         skyBoxMesh.setMaterial(new Material(skyBoxtexture, 0.1f));
     }
 
     public SkyBox(){
         super(skyBoxMesh);
         setPosition(0, 0, -190);
+        setRotation(0,0, 90);
     }
 }

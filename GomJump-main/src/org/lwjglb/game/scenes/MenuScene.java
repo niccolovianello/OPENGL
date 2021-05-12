@@ -95,7 +95,7 @@ public class MenuScene implements Scene {
                 updateSkin();
             }
             case Coin -> {
-                coinItem.rotate(interval / 6);
+                //coinItem.rotate(interval / 6);
                 updateCoin();
             }
             case HighScores -> {

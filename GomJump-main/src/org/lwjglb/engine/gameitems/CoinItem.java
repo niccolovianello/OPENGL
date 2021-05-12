@@ -12,16 +12,16 @@ import java.awt.geom.Rectangle2D;
 
 public class CoinItem extends GameItem {
 
-    static String[] skins = {"./textures/coin0.png", "./textures/coin1.png", "./textures/coin2.png", "./textures/coin3.png"};
+    static String[] skins = {"./textures/ball0.png", "./textures/ball1.png"};
 
     static Mesh mesh;
 
     static Material material;
 
-    static Texture[] textures = new Texture[4];
+    static Texture[] textures = new Texture[2];
 
     public static void initCoin() throws Exception {
-        mesh = OBJLoader.loadMesh("/models/coin.obj");
+        mesh = OBJLoader.loadMesh("/models/ball.obj");
         material = new Material(new Vector4f(1.0f, 1.0f, 0.0f, 1.0f), 1f);
         mesh.setMaterial(material);
         for (int i = 0; i < textures.length; i++) {
@@ -41,7 +41,7 @@ public class CoinItem extends GameItem {
         Vector3f vec = new Vector3f(platformItem.getPosition());
         vec.y += 0.05f;
         vec.z += 0.07;
-        setScale(0.06f);
+        setScale(0.1f);
         setPosition(vec);
     }
 

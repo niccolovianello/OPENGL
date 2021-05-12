@@ -21,8 +21,8 @@ public class PlatformItem extends GameItem {
     private float time = 0;
 
     public static void initPlatform() throws Exception {
-        mesh = OBJLoader.loadMesh("/models/platform.obj");
-        mesh1 = OBJLoader.loadMesh("/models/platform.obj");
+        mesh = OBJLoader.loadMesh("/models/trampolino.obj");
+        mesh1 = OBJLoader.loadMesh("/models/trampolino.obj");
         texture = new Texture("./textures/platform.png");
         texture1 = new Texture("./textures/platform1.png");
         Material material = new Material(new Vector4f(1.0f, 1.0f, 0.0f, 1.0f), 1f),
