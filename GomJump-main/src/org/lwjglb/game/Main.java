@@ -16,6 +16,4 @@ public class Main {
             System.exit(-1);
         }
     }
-
-    // salute a te
 }
